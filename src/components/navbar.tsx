@@ -6,12 +6,8 @@ import { NAV_LINKS } from "../constants";
 import { styles } from "../styles";
 import { cn } from "../utils/lib";
 
-type NavbarProps = {
-  hide: boolean;
-};
-
 // Navbar
-export const Navbar = ({ hide }: NavbarProps) => {
+export const Navbar = () => {
   // state variables
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
@@ -36,7 +32,7 @@ export const Navbar = ({ hide }: NavbarProps) => {
       className={cn(
         styles.paddingX,
         "w-full flex items-center py-5 fixed top-0 z-20 bg-primary",
-        isAtBottom || hide ? "mt-0" : "mt-20"
+        isAtBottom ? "mt-0" : "mt-0"
       )}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
