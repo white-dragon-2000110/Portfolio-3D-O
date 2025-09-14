@@ -29,10 +29,6 @@ import {
   project4,
   project5,
   project6,
-  youtube,
-  linkedin,
-  twitter,
-  github,
 } from "../assets";
 
 // Navbar Links
@@ -48,14 +44,14 @@ export const NAV_LINKS = [
     link: null,
   },
   {
-    id: "contact",
-    title: "Contact",
+    id: "projects",
+    title: "Projects",
     link: null,
   },
   {
-    id: "source-code",
-    title: "Source Code",
-    link: "http://www.github.com/sanidhyy/3d-portfolio/",
+    id: "contact",
+    title: "Contact",
+    link: null,
   },
 ] as const;
 
@@ -330,25 +326,3 @@ export const PROJECTS = [
   },
 ] as const;
 
-export const SOCIALS = [
-  {
-    name: "YouTube",
-    icon: youtube,
-    link: "https://www.youtube.com/@OPGAMER.",
-  },
-  {
-    name: "Linkedin",
-    icon: linkedin,
-    link: "https://www.linkedin.com/in/sanidhyy",
-  },
-  {
-    name: "Twitter",
-    icon: twitter,
-    link: "https://twitter.com/TechnicalShubam",
-  },
-  {
-    name: "GitHub",
-    icon: github,
-    link: "https://github.com/sanidhyy",
-  },
-] as const;

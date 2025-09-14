@@ -1,7 +1,7 @@
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
-import { github, preview } from "../assets";
+import { preview } from "../assets";
 import { PROJECTS } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
@@ -17,7 +17,6 @@ const ProjectCard = ({
   name,
   description,
   image,
-  source_code_link,
   live_site_link,
 }: ProjectCardProps) => (
   <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -47,7 +46,7 @@ const ProjectCard = ({
           />
         )}
 
-        {/* Omni */}
+        {/* View Button */}
         <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
           <div
             onClick={() => window.open(live_site_link, "_blank", "noreferrer")}
@@ -55,24 +54,9 @@ const ProjectCard = ({
           >
             <img
               src={preview}
-              alt="Omni"
-              title="Omni"
+              alt="View"
+              title="View"
               className="w-2/3 h-2/3 object-contain"
-            />
-          </div>
-
-          {/* Github */}
-          <div
-            onClick={() =>
-              window.open(source_code_link, "_blank", "noreferrer")
-            }
-            className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer ml-2"
-          >
-            <img
-              src={github}
-              alt="Github"
-              title="Github"
-              className="w-1/2 h-1/2 object-contain"
             />
           </div>
         </div>
@@ -90,7 +74,7 @@ const ProjectCard = ({
 // Works
 export const Works = () => {
   return (
-    <SectionWrapper>
+    <SectionWrapper idName="projects">
       <>
         {/* Title */}
         <motion.div variants={textVariant()}>

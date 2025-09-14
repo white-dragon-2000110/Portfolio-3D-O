@@ -100,7 +100,7 @@ export const Contact = () => {
           from_name: form.name,
           to_name: "Oleksii",
           from_email: form.email.trim().toLowerCase(),
-          to_email: import.meta.env.VITE_APP_EMAILJS_RECIEVER,
+          to_email: import.meta.env.VITE_APP_EMAILJS_RECIEVER || "sweetdream20021216@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_KEY,

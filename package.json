@@ -3,9 +3,9 @@
   "version": "1.1.4",
   "private": true,
   "author": {
-    "name": "Sanidhya Kumar Verma",
-    "email": "sanidhya.verma12345@gmail.com",
-    "url": "https://github.com/sanidhyy"
+    "name": "Oleksii Zaviriukha",
+    "email": "sweetdream20021216@gmail.com",
+    "url": "https://github.com/white-dragon-2000110"
   },
   "description": "Modern 3D Portfolio using React, Three.js and Typescript",
   "keywords": [
@@ -23,21 +23,21 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sanidhyy/3d-portfolio.git"
+    "url": "https://github.com/white-dragon-2000110/3d-portfolio.git"
   },
-  "homepage": "https://github.com/sanidhyy/3d-portfolio#readme",
+  "homepage": "https://github.com/white-dragon-2000110/3d-portfolio#readme",
   "bugs": {
-    "url": "https://github.com/sanidhyy/3d-portfolio/issues",
-    "email": "sanidhya.verma12345@gmail.com"
+    "url": "https://github.com/white-dragon-2000110/3d-portfolio/issues",
+    "email": "sweetdream20021216@gmail.com"
   },
   "funding": [
     {
       "type": "patreon",
-      "url": "https://www.patreon.com/sanidhy"
+      "url": "https://www.patreon.com/white-draon-2000110"
     },
     {
       "type": "Buy me a coffee",
-      "url": "https://www.buymeacoffee.com/sanidhy"
+      "url": "https://www.buymeacoffee.com/white-draon-2000110"
     }
   ],
   "type": "module",
