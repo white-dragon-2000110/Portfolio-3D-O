@@ -30,16 +30,6 @@
     "url": "https://github.com/white-dragon-2000110/3d-portfolio/issues",
     "email": "sweetdream20021216@gmail.com"
   },
-  "funding": [
-    {
-      "type": "patreon",
-      "url": "https://www.patreon.com/white-draon-2000110"
-    },
-    {
-      "type": "Buy me a coffee",
-      "url": "https://www.buymeacoffee.com/white-draon-2000110"
-    }
-  ],
   "type": "module",
   "scripts": {
     "dev": "vite",

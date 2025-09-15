@@ -185,7 +185,7 @@ export const PROJECTS = [
       },
     ],
     image: project1,
-    source_code_link: "https://github.com/sanidhyy/disney-clone",
+    source_code_link: "https://github.com/white-dragon-2000110/disney-clone",
     live_site_link: "https://tradestream.xyz/",
   },
   {
@@ -207,7 +207,7 @@ export const PROJECTS = [
       },
     ],
     image: project2,
-    source_code_link: "https://github.com/sanidhyy/fitness-app",
+    source_code_link: "https://github.com/white-dragon-2000110/fitness-app",
     live_site_link: "https://billline.net/",
   },
   {
@@ -229,7 +229,7 @@ export const PROJECTS = [
       },
     ],
     image: project3,
-    source_code_link: "https://github.com/sanidhyy/admin-dashboard",
+    source_code_link: "https://github.com/white-dragon-2000110/admin-dashboard",
     live_site_link: "https://learncrypto.com/",
   },
   {
@@ -251,7 +251,7 @@ export const PROJECTS = [
       },
     ],
     image: project4,
-    source_code_link: "https://github.com/sanidhyy/tiktok-clone",
+    source_code_link: "https://github.com/white-dragon-2000110/tiktok-clone",
     live_site_link: "https://30ua.info/en/",
   },
   {
@@ -273,7 +273,7 @@ export const PROJECTS = [
       },
     ],
     image: project5,
-    source_code_link: "https://github.com/sanidhyy/crypto-app",
+    source_code_link: "https://github.com/white-dragon-2000110/crypto-app",
     live_site_link: "http://solidbash.com/",
   },
   {
@@ -295,7 +295,7 @@ export const PROJECTS = [
       },
     ],
     image: project6,
-    source_code_link: "https://github.com/sanidhyy/travel-advisor",
+    source_code_link: "https://github.com/white-dragon-2000110/travel-advisor",
     live_site_link: "https://global.esto.eu/",
   },
 ] as const;
