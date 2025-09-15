@@ -51,6 +51,11 @@ export const NAV_LINKS = [
     title: "Contact",
     link: null,
   },
+  {
+    id: "cv",
+    title: "CV",
+    link: "/public/CV/my CV.pdf",
+  },
 ] as const;
 
 // Services
