@@ -49,7 +49,7 @@ Here is the folder structure of this app.
     |-- desktop_pc/
     |-- planet/
     |-- apple-touch-icon.png
-    |-- favicon.ico
+    |-- favicon.png
     |-- favicon16.png
     |-- favicon32.png
   |- src/

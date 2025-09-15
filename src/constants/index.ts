@@ -18,8 +18,6 @@ import {
   git,
   figma,
   docker,
-  meta,
-  shopify,
   starbucks,
   tesla,
   threejs,
@@ -134,11 +132,11 @@ export const TECHNOLOGIES = [
 // Experiences
 export const EXPERIENCES = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     company_name: "Goodface agency",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "May 2016 - April 2019",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -151,41 +149,12 @@ export const EXPERIENCES = [
     company_name: "Temy",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "July 2019 - Aug 2022",
     points: [
       "Designing and integrating intelligent features such as chatbots, recommendation engines, and workflow automations.",
       "Leveraging machine learning and natural language processing to enhance user experience and business efficiency.",
       "Building scalable APIs and services that combine AI with modern web technologies.",
       "Collaborating with clients to identify opportunities where AI can solve real-world problems and deliver measurable value.",
-    ],
-  },
-  {
-    title: "Backend Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Designing, developing, and maintaining server-side applications using Node.js and related frameworks.",
-      "Building and integrating RESTful and GraphQL APIs to ensure smooth communication between front-end and back-end systems.",
-      "Implementing authentication, authorization, and security best practices to protect applications and user data.",
-      "Collaborating with front-end developers, designers, and product managers to deliver reliable, high-quality solutions.",
-      "Participating in code reviews, debugging, and performance tuning to maintain clean and efficient codebases.",
-      "Leveraging AI and automation to enhance backend workflows and data-driven features.",
-    ],
-  },
-  {
-    title: "Chatbot | Automation Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Designing and developing AI-powered chatbots to enhance customer engagement and streamline communication.",
-      "Building automation solutions that integrate with APIs, CRMs, and third-party platforms to improve efficiency.",
-      "Implementing natural language processing (NLP) for intelligent, human-like interactions.",
-      "Collaborating with clients and teams to deliver scalable, secure, and user-friendly AI-driven solutions.",
-      "Continuously optimizing chatbot performance with analytics, testing, and feedback loops.",
     ],
   },
 ] as const;
