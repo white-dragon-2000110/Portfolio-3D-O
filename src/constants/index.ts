@@ -54,7 +54,7 @@ export const NAV_LINKS = [
   {
     id: "cv",
     title: "CV",
-    link: "/public/CV/my CV.pdf",
+    link: "/CV/Oleksii_CV.pdf",
   },
 ] as const;
 
